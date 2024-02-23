@@ -1,0 +1,16 @@
+[
+  {
+    "id": "base",
+    "routes": [
+      "add-headers:enabled",
+      "get-lesson:real",
+      "get-lessons:success",
+      "get-lesson:success"
+    ]
+  },
+  {
+    "id": "all-lessons",
+    "from": "base",
+    "routes": ["get-lessons:all"]
+  }
+]
